@@ -55,8 +55,8 @@ include:
     FDO_DISTRIBUTION_TAG: '2026-07-25.0'
     FDO_DISTRIBUTION_VERSION: 'stable'
     FDO_DISTRIBUTION_PACKAGES: >
-      git diffutils curl shellcheck devscripts meson build-essential lsb-release
-      colordiff liblcms2-dev
+      git diffutils curl shellcheck devscripts meson build-essential lsb-release colordiff
+      liblcms2-dev
     #FIXME: remove this hack when we use FDO_DISTRIBUTION_VERSION with newer LLVM
     LLVM_VERSION: 22
     FDO_DISTRIBUTION_EXEC: >
