@@ -1,6 +1,6 @@
 project('babl', 'c',
   license: 'LGPL3+',
-  version: '0.1.127',
+  version: '0.1.128',
   meson_version: '>=0.60.0',
   default_options: [
     #'c_std=none', # c11 breaks Linux/GNU, gnu11 breaks Windows/MSVC, so set to none
